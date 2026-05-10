@@ -1,0 +1,9 @@
+[submodule "ai-team-studio"]
+	path = ai-team-studio
+	url = https://github.com/ddrdushy/codanium-web.git
+[submodule "codanium-desktop"]
+	path = codanium-desktop
+	url = https://github.com/ddrdushy/codanium-desktop.git
+[submodule "ai-team-studio-vscode"]
+	path = ai-team-studio-vscode
+	url = https://github.com/ddrdushy/codanium-vscode.git

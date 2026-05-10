@@ -1,0 +1,91 @@
+# ─── Dependencies ─────────────────────────────────────────────
+**/node_modules/
+**/.pnp
+**/.pnp.*
+**/.yarn/cache/
+**/.yarn/install-state.gz
+**/.yarn/build-state.yml
+
+# ─── Build output ─────────────────────────────────────────────
+**/dist/
+**/build/
+**/out/
+**/.next/
+**/target/
+**/src-tauri/target/
+**/src-tauri/gen/
+**/src-tauri/WixTools/
+**/src/generated/prisma/
+
+# ─── Test artifacts ──────────────────────────────────────────
+**/coverage/
+**/playwright-report/
+**/test-results/
+
+# ─── AI-generated workspaces (dynamic content) ───────────────
+ai-team-studio/workspaces/
+
+# ─── TypeScript ──────────────────────────────────────────────
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# ─── Env files (allow examples + .env.docker placeholder) ────
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.*.local
+!**/.env.example
+!**/.env.docker
+
+# ─── IDE / editor ────────────────────────────────────────────
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+
+# ─── OS metadata ─────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ─── Logs ────────────────────────────────────────────────────
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnpm-debug.log*
+
+# ─── Secrets / scripts containing credentials ────────────────
+ai-team-studio/sync-settings.sh
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.keystore
+**/id_rsa*
+**/id_ed25519*
+
+# ─── Tool caches ─────────────────────────────────────────────
+**/.zencoder/
+**/.zenflow/
+
+# ─── Claude Code local-only settings (entire .claude at repo roots) ──
+.claude/
+**/.claude/settings.local.json
+**/.claude/projects/
+
+# ─── VS Code extension build artifacts ───────────────────────
+**/*.vsix
+**/.vscode-test/
+
+# ─── Tauri / desktop release artifacts ───────────────────────
+**/*.dmg
+**/*.msi
+**/*.exe
+**/*.deb
+**/*.AppImage
+**/*.rpm
+**/*.app
+
+# ─── Vercel ──────────────────────────────────────────────────
+**/.vercel
